@@ -57,7 +57,7 @@ table {
 
 .step {
     position: relative;
-    width: 900px;
+    width: 1192px;
     padding: 40px;
     margin: 20px auto;
 
@@ -115,17 +115,25 @@ table {
 
 .dandelion {
     height: 1200px;
-    -webkit-transform: rotate(-10deg);
-    -moz-transform:    rotate(-10deg);
-    -ms-transform:     rotate(-10deg);
-    -o-transform:      rotate(-10deg);
-    transform:         rotate(-10deg);
+}
+.dandelion img {
+    height: 1200px;
+}
 
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
+.dandelion-animated {
+    display: inline-block;
+    -webkit-transition: 1s;
+    -moz-transition:    1s;
+    -ms-transition:     1s;
+    -o-transition:      1s;
+    transition:         1s;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:    rotate(-90deg);
+    -ms-transform:     rotate(-90deg);
+    -o-transform:      rotate(-90deg);
+    transform:         rotate(-90deg);
+
 }
 
 #title .title {
