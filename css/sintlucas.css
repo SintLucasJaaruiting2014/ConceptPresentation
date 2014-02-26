@@ -136,6 +136,11 @@ table {
 
 }
 
+.walk_of_fame {
+    width: auto;
+    background-size: cover;
+}
+
 #title .title {
     font-size: 100px;
     line-height: 1.1;
